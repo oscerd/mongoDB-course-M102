@@ -1,0 +1,3 @@
+Answer is:
+
+db.m102.insert([{ "a": 1 }, { "b": 2 }, {"c":3}])
