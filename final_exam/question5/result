@@ -1,0 +1,4 @@
+Answer is:
+
+- We can create an index to make the following query fast/faster: db.postings.find( { "comments.flagged" : true } )
+- One way to assure people vote at most once per posting is to use this form of update: db.postings.update( { _id: . . . , voters:{$ne:'joe'} }, { $inc : {votes:1}, $push : {voters:'joe'} } );

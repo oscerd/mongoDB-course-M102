@@ -1,0 +1,4 @@
+Answer is:
+
+- 2 shards are queried.
+- 10 documents are scanned.
